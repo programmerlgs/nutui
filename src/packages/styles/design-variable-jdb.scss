@@ -1,0 +1,64 @@
+//B商城设计变量
+//-------------色彩变量
+//品牌色
+$tdd_color_brand_normal: #f82c45 !default;
+$tdd_color_brand_gradient_normal_1: #ff566a !default;
+$tdd_color_brand_gradient_normal_2: #f82c45 !default;
+//辅助色
+$tdd_color_auxiliary_normal: #ffa41c !default;
+$tdd_color_auxiliary_gradient_normal_1: #ffba0d !default;
+$tdd_color_auxiliary_gradient_normal_2: #ffa41c !default;
+//功能色
+$tdd_color_success_normal: #00c38f !default;
+$tdd_color_nfos_normal: #4d84fe !default;
+$tdd_color_warning: #de6a1c !default;
+$tdd_color_error: #ff1923 !default;
+//中性色
+$tdd_color_font_400: #1a1a1a !default;
+$tdd_color_font_300: #666666 !default;
+$tdd_color_font_200: #999999 !default;
+$tdd_color_font_100: #cccccc !default;
+//填充
+$tdd_color_fill_400: #cccccc !default;
+$tdd_color_fill_300: #ebebeb !default;
+$tdd_color_fill_200: #f4f4f4 !default;
+$tdd_color_fill_100: #f7f7f7 !default;
+//线
+$tdd_color_line_300: #999999 !default;
+$tdd_color_line_200: #ebebeb !default;
+$tdd_color_line_100: #f4f4f4 !default;
+//黑白
+$tdd_color_black: rgba(0, 0, 0, 1) !default;
+$tdd_color_black_80: rgba(0, 0, 0, 0.8) !default;
+$tdd_color_black_50: rgba(0, 0, 0, 0.5) !default;
+$tdd_color_black_10: rgba(0, 0, 0, 0.1) !default;
+$tdd_color_black_2: rgba(0, 0, 0, 0.02) !default;
+$tdd_color_white: #ffffff !default;
+
+//-------------文字变量
+//字号梯度
+$tdd_font_size_1: 30px !default;
+$tdd_font_size_2: 24px !default;
+$tdd_font_size_3: 20px !default;
+$tdd_font_size_4: 18px !default;
+$tdd_font_size_5: 16px !default;
+$tdd_font_size_6: 14px !default;
+$tdd_font_size_7: 12px !default;
+$tdd_font_size_8: 10px !default;
+//价格梯度 多个字体组成
+//行高
+$tdd_line_height_1: 1 !default;
+$tdd_line_height_2: 1.5 !default;
+$tdd_line_height_3: 2 !default;
+
+//-------------图标
+
+//-------------倒角
+$tdd_border_radius_1: 2px !default;
+$tdd_border_radius_2: 4px !default;
+$tdd_border_radius_3: 6px !default;
+$tdd_border_radius_4: 8px !default;
+$tdd_border_radius_5: 12px !default;
+$tdd_border_radius_6: 14px !default;
+$tdd_border_radius_7: 19px !default;
+$tdd_border_radius_8: 24px !default;
