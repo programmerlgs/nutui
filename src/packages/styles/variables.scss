@@ -1,4 +1,5 @@
-// color
+// 禁用透明度
+$primary-disabled-opacity: 0.68 !default;
 
 // 主色调
 $primary-color: #fa2c19 !default;
@@ -58,7 +59,7 @@ $button-block-line-height: 46px !default;
 $button-default-font-size: $font-size-2 !default;
 $button-small-font-size: $font-size-1 !default;
 $button-mini-font-size: $font-size-1 !default;
-$button-disabled-opacity: 0.68 !default;
+$button-disabled-opacity: $primary-disabled-opacity !default;
 $button-primary-color: $white !default;
 $button-primary-border-color: $primary-color !default;
 $button-primary-background-color: linear-gradient(135deg, $primary-color 0%, $primary-color-end 100%) !default;
@@ -89,6 +90,7 @@ $button-warning-background-color: linear-gradient(
 ) !default;
 $button-plain-background-color: $white !default;
 
+$button-disabled-color: $button-primary-background-color !default;
 // cell
 
 $cell-color: $title-color2 !default;

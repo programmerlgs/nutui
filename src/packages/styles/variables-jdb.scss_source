@@ -1,75 +1,77 @@
-
 //B商城设计变量
 //-------------色彩变量
 //品牌色
-$tdd_color_brand_normal: #F82C45 !default;
-$tdd_color_brand_gradient_normal_1: #FF566A !default;
-$tdd_color_brand_gradient_normal_2: #F82C45 !default;
+$tdd-color-brand-normal: #f82c45 !default;
+$tdd-color-brand-gradient-normal-1: #ff566a !default;
+$tdd-color-brand-gradient-normal-2: #f82c45 !default;
 //辅助色
-$tdd_color_auxiliary_normal: #FFA41C !default;
-$tdd_color_auxiliary_gradient_normal_1: #FFBA0D !default;
-$tdd_color_auxiliary_gradient_normal_2: #FFA41C !default;
+$tdd-color-auxiliary-normal: #ffa41c !default;
+$tdd-color-auxiliary-gradient-normal-1: #ffba0d !default;
+$tdd-color-auxiliary-gradient-normal-2: #ffa41c !default;
 //功能色
-$tdd_color_success_normal: #00C38F !default;
-$tdd_color_nfos_normal: #4D84FE !default;
-$tdd_color_warning: #DE6A1C !default;
-$tdd_color_error: #FF1923 !default;
+$tdd-color-success-normal: #00c38f !default;
+$tdd-color-nfos-normal: #4d84fe !default;
+$tdd-color-warning: #de6a1c !default;
+$tdd-color-error: #ff1923 !default;
 //中性色
-$tdd_color_font_400: #1A1A1A !default;
-$tdd_color_font_300:   #666666 !default;
-$tdd_color_font_200:   #999999 !default;
-$tdd_color_font_100:   #cccccc !default;
+$tdd-color-font-400: #1a1a1a !default;
+$tdd-color-font-300: #666666 !default;
+$tdd-color-font-200: #999999 !default;
+$tdd-color-font-100: #cccccc !default;
 //填充
-$tdd_color_fill_400: #cccccc !default;
-$tdd_color_fill_300: #EBEBEB !default;
-$tdd_color_fill_200: #F4F4F4 !default;
-$tdd_color_fill_100: #F7F7F7 !default;
+$tdd-color-fill-400: #cccccc !default;
+$tdd-color-fill-300: #ebebeb !default;
+$tdd-color-fill-200: #f4f4f4 !default;
+$tdd-color-fill-100: #f7f7f7 !default;
 //线
-$tdd_color_line_300: #999999 !default;
-$tdd_color_line_200: #EBEBEB !default;
-$tdd_color_line_100: #F4F4F4 !default;
+$tdd-color-line-300: #999999 !default;
+$tdd-color-line-200: #ebebeb !default;
+$tdd-color-line-100: #f4f4f4 !default;
 //黑白
-$tdd_color_black: rgba(0,0,0,1) !default;
-$tdd_color_black_80: rgba(0,0,0,0.8) !default;
-$tdd_color_black_50: rgba(0,0,0,0.5) !default;
-$tdd_color_black_10: rgba(0,0,0,0.1) !default;
-$tdd_color_black_2: rgba(0,0,0,0.02) !default;
-$tdd_color_white: #FFFFFF !default;
+$tdd-color-black: rgba(0, 0, 0, 1) !default;
+$tdd-color-black-80: rgba(0, 0, 0, 0.8) !default;
+$tdd-color-black-50: rgba(0, 0, 0, 0.5) !default;
+$tdd-color-black-10: rgba(0, 0, 0, 0.1) !default;
+$tdd-color-black-2: rgba(0, 0, 0, 0.02) !default;
+$tdd-color-white: #ffffff !default;
 
 //-------------文字变量
 //字号梯度
-$tdd_font_size_1: 30px !default;
-$tdd_font_size_2: 24px !default;
-$tdd_font_size_3: 20px !default;
-$tdd_font_size_4: 18px !default;
-$tdd_font_size_5: 16px !default;
-$tdd_font_size_6: 14px !default;
-$tdd_font_size_7: 12px !default;
-$tdd_font_size_8: 10px !default;
+$tdd-font-size-1: 30px !default;
+$tdd-font-size-2: 24px !default;
+$tdd-font-size-3: 20px !default;
+$tdd-font-size-4: 18px !default;
+$tdd-font-size-5: 16px !default;
+$tdd-font-size-6: 14px !default;
+$tdd-font-size-7: 12px !default;
+$tdd-font-size-8: 10px !default;
 //价格梯度 多个字体组成
 //行高
-$tdd_line_height_1: 1 !default;
-$tdd_line_height_2: 1.5 !default;
-$tdd_line_height_3: 2 !default;
+$tdd-line-height-1: 1 !default;
+$tdd-line-height-2: 1.5 !default;
+$tdd-line-height-3: 2 !default;
 
 //-------------图标
 
 //-------------倒角
-$tdd_border_radius_1: 2px !default;
-$tdd_border_radius_2: 4px !default;
-$tdd_border_radius_3: 6px !default;
-$tdd_border_radius_4: 8px !default;
-$tdd_border_radius_5: 12px !default;
-$tdd_border_radius_6: 14px !default;
-$tdd_border_radius_7: 19px !default;
-$tdd_border_radius_8: 24px !default;
+$tdd-border-radius-1: 2px !default;
+$tdd-border-radius-2: 4px !default;
+$tdd-border-radius-3: 4px !default;
+$tdd-border-radius-4: 4px !default;
+$tdd-border-radius-5: 8px !default;
+$tdd-border-radius-6: 6px !default;
+$tdd-border-radius-7: 8px !default;
+$tdd-border-radius-8: 8px !default;
+$tdd-border-radius-9: 8px !default;
+$tdd-border-radius-10: 6px !default;
 
 //----------------
+// 禁用透明度
+$primary-disabled-opacity: 1 !default;
 // 主色调
-$primary-color: $tdd_color_brand_normal !default;
-$primary-color-start: $tdd_color_brand_gradient_normal_1 !default; 
-$primary-color-end: $tdd_color_brand_gradient_normal_2 !default;
-
+$primary-color: $tdd-color-brand-normal !default;
+$primary-color-start: $tdd-color-brand-gradient-normal-1 !default;
+$primary-color-end: $tdd-color-brand-gradient-normal-2 !default;
 
 // 辅助色
 $help-color: #f5f5f5 !default;
@@ -104,7 +106,7 @@ $font-size-large: $font-size-3 !default;
 $line-height-base: 1.5 !default;
 
 // button
-$button-border-radius: 25px !default;
+$button-border-radius: $tdd-border-radius-7 !default;
 $button-border-width: 1px !default;
 $button-default-bg-color: $white !default;
 $button-default-border-color: rgba(204, 204, 204, 1) !default;
@@ -124,9 +126,9 @@ $button-block-line-height: 46px !default;
 $button-default-font-size: $font-size-2 !default;
 $button-small-font-size: $font-size-1 !default;
 $button-mini-font-size: $font-size-1 !default;
-$button-disabled-opacity: 0.68 !default;
-$button-primary-color: $white !default;
-$button-primary-border-color: $primary-color !default;
+$button-disabled-opacity: $primary-disabled-opacity !default;
+$button-primary-color: $tdd-color-white !default;
+$button-primary-border-color: $tdd-color-brand-normal !default;
 $button-primary-background-color: linear-gradient(135deg, $primary-color-start 0%, $primary-color-end 100%) !default;
 $button-info-color: $white !default;
 $button-info-border-color: rgba(73, 106, 242, 1) !default;
@@ -155,6 +157,7 @@ $button-warning-background-color: linear-gradient(
 ) !default;
 $button-plain-background-color: $white !default;
 
+$button-disabled-color: $tdd-color-fill-400 !default;
 // cell
 
 $cell-color: $title-color2 !default;
@@ -327,11 +330,11 @@ $switch-inside-close-transform: translateX(30%) !default;
 
 // toast
 $toast-title-font-size: 16px !default;
-$toast-text-font-size: 14px !default;
+$toast-text-font-size: $tdd-font-size-6 !default;
 $toast-font-color: $white !default;
 $toast-inner-padding: 24px 30px !default;
-$toast-inner-bg-color: rgba(0, 0, 0, 0.8) !default;
-$toast-inner-border-radius: 12px !default;
+$toast-inner-bg-color: $tdd-color-black-80 !default;
+$toast-inner-border-radius: $tdd-border-radius-5 !default;
 $toast-cover-bg-color: rgba(0, 0, 0, 0) !default;
 
 //backtop
@@ -360,7 +363,7 @@ $overlay-bg-color: rgba(0, 0, 0, 0.7) !default;
 
 //popup
 $popup-close-icon-margin: 16px !default;
-$popup-border-radius: 20px !default;
+$popup-border-radius: $tdd-border-radius-5 !default;
 
 // Notify
 $notify-text-color: $white !default;
@@ -464,7 +467,7 @@ $checkbox-icon-font-size: 18px !default;
 $radio-label-font-color: #1d1e1e !default;
 $radio-label-font-active-color: $primary-color !default;
 $radio-label-disable-color: #999 !default;
-$radio-icon-disable-color: #d6d6d6 !default;
+$radio-icon-disable-color: $tdd-color-fill-400 !default;
 $radio-label-button-border-color: $primary-color !default;
 $radio-label-button-background: rgba($primary-color, 0.05) !default;
 $radio-label-margin-left: 15px !default;
